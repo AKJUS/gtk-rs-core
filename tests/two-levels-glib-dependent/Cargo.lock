@@ -4,9 +4,9 @@ version = 4
 
 [[package]]
 name = "bitflags"
-version = "2.9.1"
+version = "2.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1b8e56985ec62d17e9c1001dc89c88ecd7dc08e47eba5ec7c29c7b5eeecde967"
+checksum = "843867be96c8daad0d758b57df9392b6d8d271134fce549de6ce169ff98a92af"
 
 [[package]]
 name = "cfg-expr"
@@ -83,7 +83,7 @@ dependencies = [
 
 [[package]]
 name = "gio-sys"
-version = "0.22.0"
+version = "0.23.0-alpha"
 dependencies = [
  "glib-sys",
  "gobject-sys",
@@ -94,7 +94,7 @@ dependencies = [
 
 [[package]]
 name = "glib"
-version = "0.22.0"
+version = "0.23.0-alpha"
 dependencies = [
  "bitflags",
  "futures-channel",
@@ -121,10 +121,9 @@ dependencies = [
 
 [[package]]
 name = "glib-macros"
-version = "0.22.0"
+version = "0.23.0-alpha"
 dependencies = [
  "heck",
- "proc-macro-crate",
  "proc-macro2",
  "quote",
  "syn",
@@ -132,7 +131,7 @@ dependencies = [
 
 [[package]]
 name = "glib-sys"
-version = "0.22.0"
+version = "0.23.0-alpha"
 dependencies = [
  "libc",
  "system-deps",
@@ -140,7 +139,7 @@ dependencies = [
 
 [[package]]
 name = "gobject-sys"
-version = "0.22.0"
+version = "0.23.0-alpha"
 dependencies = [
  "glib-sys",
  "libc",
@@ -191,9 +190,9 @@ checksum = "1171693293099992e19cddea4e8b849964e9846f4acee11b3948bcc337be8776"
 
 [[package]]
 name = "memchr"
-version = "2.7.5"
+version = "2.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "32a282da65faaf38286cf3be983213fcf1d2e2a58700e808f83f4ea9a4804bc0"
+checksum = "f8ca58f447f06ed17d5fc4043ce1b10dd205e060fb3ce5b979b8ed8e59ff3f79"
 
 [[package]]
 name = "pin-project-lite"
@@ -212,15 +211,6 @@ name = "pkg-config"
 version = "0.3.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7edddbd0b52d732b21ad9a5fab5c704c14cd949e5e9a1ec5929a24fded1b904c"
-
-[[package]]
-name = "proc-macro-crate"
-version = "3.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "edce586971a4dfaa28950c6f18ed55e0406c1ab88bbce2c6f6293a7aaba73d35"
-dependencies = [
- "toml_edit",
-]
 
 [[package]]
 name = "proc-macro2"
@@ -271,9 +261,9 @@ dependencies = [
 
 [[package]]
 name = "slab"
-version = "0.4.10"
+version = "0.4.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "04dc19736151f35336d325007ac991178d504a119863a2fcb3758cdb5e52c50d"
+checksum = "0c790de23124f9ab44544d7ac05d60440adc586479ce501c1d6d7da3cd8c9cf5"
 
 [[package]]
 name = "smallvec"
@@ -283,9 +273,9 @@ checksum = "67b1b7a3b5fe4f1376887184045fcf45c69e92af734b7aaddc05fb777b6fbd03"
 
 [[package]]
 name = "syn"
-version = "2.0.104"
+version = "2.0.117"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "17b6f705963418cdb9927482fa304bc562ece2fdd4f616084c50b7023b435a40"
+checksum = "e665b8803e7b1d2a727f4023456bbbbe74da67099c585258af0ad9c5013b9b99"
 dependencies = [
  "proc-macro2",
  "quote",
